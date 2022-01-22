@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+// @use '../Button/Button.scss';
+
+.banner{
+    background-color: gainsboro ;
+    display: flex;
+    width: 85%;
+    height: 20%;
+    border-radius: 10px;
+
+    .banner-text{
+        width: 75%;
+        background-color: #C3E7FD;
+        display: flex;
+        overflow: hidden;
+        // margin: auto;
+
+        .circle{
+            border-radius: 50%;
+            background-color: #D3B4F6;
+            transform: translateX(-50%);
+            height: 100%;
+            width: 180px;
+        }
+        .text{
+            width: 55%;
+            transform: translateX(-10%);
+            margin: auto 0;
+
+            h1{
+                font-family: 'Bebas Neue', sans-serif;
+                font-size: 48px;
+                line-height: 58px;
+                text-align: left;
+            }
+    
+            p{
+                font-family: 'DM Sans';
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 36px;
+                color: #566474;
+                margin: 0;
+                text-align: left;
+            }
+
+        }
+
+    }
+
+    img{
+        margin: 0;
+        height: 100%;
+        width: 25%;
+    }
+}
+
+
+.btn{
+    margin: auto;
+    margin-left: 0;
+}
