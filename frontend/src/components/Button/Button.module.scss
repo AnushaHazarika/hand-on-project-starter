@@ -1,7 +1,7 @@
 .btn{
     background-color:#142683;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0.02rem;
@@ -13,13 +13,11 @@
     align-items: center;
     padding: 8px 16px;
     // margin: 5px 10px;
-    margin-top: 25px;
+    // margin-top: 25px;
     text-transform: uppercase;
     height: 45px;
 }
-// .null{
-//     padding: 0;
-// }
+
 .btn:active{
     transform: translateY(2px);
     transform: scaleX(1.02);
@@ -30,5 +28,5 @@
 }
 
 .btn-medium{
-    width: 133px;
+    width: 140px;
 }

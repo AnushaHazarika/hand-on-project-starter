@@ -1,9 +1,9 @@
 import React from 'react';
-import './Input.scss';
+import styles from './Input.module.scss';
 
 const Input = ({type, text}) => {
   return (
-  <div className='formInput'>
+  <div className={styles.formInput}>
       <label htmlFor={type}>{text}</label>
       <input type={type} placeholder="Type here" name={type} id={type}></input>
   </div>)

@@ -1,11 +1,11 @@
 import React from 'react';
-import './CardTile.scss';
+import styles from './CardTile.module.scss';
 
 const CardTile = ({image, name, description}) => {
   return (
-  <div className="card">
+  <div className={styles.card}>
       <img src={image} alt="" />
-      <p className='heading'>{name}</p>
+      <p className={styles.heading}>{name}</p>
       <p>{description}</p>
   </div>)
 };

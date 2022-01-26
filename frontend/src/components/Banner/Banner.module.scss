@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-// @use '../Button/Button.scss';
+// @use '../Button/Button.module.scss';
 
 .banner{
     background-color: gainsboro ;
@@ -8,8 +8,10 @@
     width: 85%;
     height: 20%;
     border-radius: 10px;
+    margin: 10px auto;
+    overflow: hidden;
 
-    .banner-text{
+    .banner_text{
         width: 75%;
         background-color: #C3E7FD;
         display: flex;
@@ -19,13 +21,13 @@
         .circle{
             border-radius: 50%;
             background-color: #D3B4F6;
-            transform: translateX(-50%);
+            transform: translateX(-47%);
             height: 100%;
             width: 180px;
         }
         .text{
-            width: 55%;
-            transform: translateX(-10%);
+            width: 65%;
+            transform: translateX(-5%);
             margin: auto 0;
 
             h1{
@@ -46,6 +48,10 @@
             }
 
         }
+        .btn{
+            display: flex;
+            align-items: center;
+        }
 
     }
 
@@ -57,7 +63,7 @@
 }
 
 
-.btn{
-    margin: auto;
-    margin-left: 0;
-}
+// .btn{
+//     margin: auto;
+//     margin-left: 0;
+// }
